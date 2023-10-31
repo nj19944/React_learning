@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Namaste React 🚀 🧨</title>
+  </head>
+  <body>
+    <h1 id="heading">Nishant is here</h1>
+    <div id="root">
+      <h1>Nishant is here</h1>
+    </div>
+    <div id="root2">
+        <h1>vicky jaiswal</h1>
+    </div>
+    <!-- react cdn link is been added!!! -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+        //creating a react object!!!
+        const parent = React.createElement("h1",{},"React is here!!!");
+        console.log(parent);
+
+        const root = ReactDOM.createRoot(document.getElementById("root2"));
+        console.log(root);
+
+        root.render(parent);
+        
+    </script>
+    <h2>demooooo</h2>
+  </body>
+</html>
